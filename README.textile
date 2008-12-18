@@ -9,9 +9,10 @@ gems:
 * ruby-prof
 * launchy
 
-Currently controllers/database.rb is setup for using DataMapper so these gems are required:
+Currently controllers/database.rb is setup for using DataMapper with sqlite3 so these gems are required:
 * dm-core
 * dm-more
+* do_sqlite3
 
 database.rb is just an example so you can easily replace it with your favorite backend.
 
@@ -31,7 +32,7 @@ h3. Basic steps to get started on your application
 # explore the code
 # have fun
 
-
-Roy Wright
-roy@wright.org
-http://www.github.com/royw
+<hr/>
+* Roy Wright
+* roy@wright.org
+* http://www.github.com/royw
