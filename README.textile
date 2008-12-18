@@ -1,5 +1,20 @@
 h2. This is a MVC ruby-gnome2 application skeleton  
 
+The skeleton demonstrates basic usage of
+
+* actions,
+* menus,
+* toolbars,
+* menus,
+* statusbar,
+* dialogs,
+* images
+
+I've also included the start of a horizontal flow widget
+
+* hflowbox
+
+
 h3. Prerequisites
 
 ruby-gnome2 from http://ruby-gnome2.sourceforge.jp/
@@ -16,6 +31,7 @@ Currently controllers/database.rb is setup for using DataMapper with sqlite3 so 
 
 database.rb is just an example so you can easily replace it with your favorite backend.
 
+
 h3. Quick Demo Usage
 
 <pre>
@@ -23,6 +39,7 @@ git clone git://github.com/royw/ruby-gnome2-app-skeleton.git
 cd ruby-gnome2-app-skeleton
 lib/my-app.rb
 </pre>
+
 
 h3. Basic steps to get started on your application
 
