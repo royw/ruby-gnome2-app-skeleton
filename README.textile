@@ -1,26 +1,35 @@
-This is a MVC ruby-gnome2 application skeleton.  
+h2. This is a MVC ruby-gnome2 application skeleton  
 
-Prerequisites:
+h3. Prerequisites
 
 ruby-gnome2 from http://ruby-gnome2.sourceforge.jp/
+
 gems:
-  log4r
-  ruby-prof
-  launchy
+* log4r
+* ruby-prof
+* launchy
 
 Currently controllers/database.rb is setup for using DataMapper so these gems are required:
-  dm-core
-  dm-more
+* dm-core
+* dm-more
 
 database.rb is just an example so you can easily replace it with your favorite backend.
 
+h3. Quick Demo Usage
 
-Basic steps to get started:
+<pre>
+git clone git://github.com/royw/ruby-gnome2-app-skeleton.git
+cd ruby-gnome2-app-skeleton
+lib/my-app.rb
+</pre>
 
-1) copy the lib directory
-2) edit lib/my-app.rb to tailor it for your application.
-3) rename lib/my-app.rb to your app's name. 
-4) have fun
+h3. Basic steps to get started on your application
+
+# copy the lib directory
+# edit lib/my-app.rb to tailor it for your application.
+# rename lib/my-app.rb to your app's name. 
+# explore the code
+# have fun
 
 
 Roy Wright
