@@ -33,6 +33,7 @@ h3. Basic steps to get started on your application
 # have fun
 
 <hr/>
+
 * Roy Wright
 * roy@wright.org
 * http://www.github.com/royw
