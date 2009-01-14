@@ -178,8 +178,11 @@ end
 if __FILE__ == $0
 
   # Demo
+  # Diplays a set of buttons in a flow layout then removes a button when it is clicked
   
-  ALPHABET = %w(Alpha Bravo Charlie Delta Echo Foxtrot Golf Hotel India Juliet Kilo Lima Mike November Oscar Papa Quebec Romeo Sierra Tango Uniform Victor Whiskey Xray Yankee Zulu)
+  ALPHABET = %w(Alpha Bravo Charlie Delta Echo Foxtrot Golf Hotel India Juliet Kilo 
+                Lima Mike November Oscar Papa Quebec Romeo Sierra Tango Uniform 
+                Victor Whiskey Xray Yankee Zulu)
   
   Gtk.init
   
@@ -198,7 +201,7 @@ if __FILE__ == $0
   ALPHABET.each do |letter|
     puts "letter => #{letter}"
     btn = Gtk::Button.new letter
-    btn.signal_connect('clicked') {|btn| puts "#{btn.get_property('position')} #{btn.label}"; fbox.remove(btn)}
+    btn.signal_connect('clicked') {|btn| puts "#{btn.label}"; fbox.remove(btn)}
     fbox.add(btn)
   end
   
